@@ -63,5 +63,9 @@ end repeat
 * ```$ cd start```
 * ```$ bash install_start.sh```
 
+## To Do
+* Add tests and testing environment.
+* Refactor ```start.scpt``` to use environment variables.
+
 ## Acknowledgements 
 [How To Run AppleScripts at Login](http://www.creativecongo.com/mac-tips-how-to-run-applescripts-at-login/)
