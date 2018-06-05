@@ -48,10 +48,14 @@ on openApplication(applicationName)
 	tell application applicationName to activate
 end openApplication
 
-openApplication("Slack")
-openApplication("Google Chrome")
-openApplication("IntelliJ IDEA")
-openApplication("iTerm")
+
+set applicationList to {"Slack", "Google Chrome", "IntelliJ IDEA", "iTerm"}
+
+
+repeat with theItem in applicationList
+	-- calls openApplication with each item in applicationList
+	openApplication(theItem)
+end repeat
 ```
 
 ## Installation
